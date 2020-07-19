@@ -11,7 +11,7 @@ impl Member {
         self.id
     }
     pub fn name(&self) -> String{
-        self.name.as_str()
+        self.name.as_str().to_string()
     }
 }
 
