@@ -1,2 +1,3 @@
-use juniper::{EmptyMutation, RootNode}
+use juniper::{EmptyMutation, RootNode};
+
 
