@@ -14,3 +14,4 @@ use std::io;
     fn index() -> impl Responder {
         HttpResponse::Ok().body("Hello world!")
     }
+    
