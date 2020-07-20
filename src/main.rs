@@ -20,7 +20,7 @@ fn main() -> io::Result<()> {
                 .service(web::resource("/graphql").route(web::post().to_async(graphql)))
                 .service(web::resource("/graphiql").route(web::get().to(graphiql)))
         })
-        .bind("localhost:8080")?
+        .bind("localhost:4321")?
         .run()
 }
 
